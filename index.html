@@ -2,52 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/491b2326aa.js" crossorigin="anonymous"></script>  <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
 </head>
 <body>
   <div class="main">
     <div class="phone">
         <div class="section1">
-          <i class="fa-solid fa-chevron-left"></i>
-          <img src="./images/avatar.jpg" alt="">
-          <div class="name"> Samuel Green</div>
-          <div class="function">Available to Walk</div>
-          <i class="fa-solid fa-ellipsis-vertical"></i>
+          <div class="sec1b">
+            <i class="fa-solid fa-chevron-left"></i>
+            <img src="./images/avatar.jpg" alt="">
+          </div>
+          <div class="sec1c">
+            <div class="sec1a">
+              <div class="name"> Samuel Green</div>
+              <div class="function">Available to Walk</div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
         </div>
-      <div class="greysection">
+      <div class="greysection"> 
         <div class="section2">
-          <div class="msg1">That sounds great. I’d be happy with that.</div>
-          <div class="msg1"> Could you send over some pictures of your dog, please?</div>
+          <div class="msg1"><div class="content">That sounds great. I’d be happy to discuss more.</div></div>
+          <div class="msg1"> <div class="content">Could you send over some pictures of your dog, please?</div></div>
         </div>
         <div class="images">
-          <img src="./images/dog-image-1.jpg" alt="">
-          <img src="./images/dog-image-2.jpg" alt="">
-          <img src="./images/dog-image-3.jpg" alt="">
+          <img src="./images/dog-image-1.jpg" alt=""  id="dog">
+          <img src="./images/dog-image-2.jpg" alt="" id="dog">
+          <img src="./images/dog-image-3.jpg" alt="" id="dog">
         </div>
-        <div class="msg2"> Here are a few pictures. She’s a happy girl!
+        <div class="msg2"> <div class="content2">Here are a few pictures. She’s a happy girl!</div>
         </div>
-        <div class="msg3"> Can you make it?</div>
-        <div class="msg3">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+        <div class="msg3"> <div class="content2">Can you make it?</div></div>
+        <div class="msg4"><div class="content">She looks so happy! The time we discussed works. How long shall I take her out for?</div></div>
             <div class="section3">
-        <div class="case">
-          <i class="fa-solid fa-circle-notch" id="circle"></i>
-          <div class="text"> 30 minute walk</div>
-          <div class="price"> $29</div>
-        </div>
-        <div class="case">
-          <i class="fa-solid fa-circle-notch" id="circle"></i>
-          <div class="text">  1 hour walk</div>
-          <div class="price">  $49</div>
+        <div class="cases">
+          <div class="case">
+            <div class="div1">
+              <div class="circle"></div>
+              <div class="text"> 30 minute walk</div>
+            </div>
+            <div class="price"> $29</div>
+          </div>
+          <div class="case">
+            <div class="div1">
+              <div class="circle"></div>
+              <div class="text">  1 hour walk</div>
+            </div>
+            <div class="price">  $49</div>
+          </div>
         </div>
             </div>
             <button>
@@ -56,6 +61,10 @@
             </button>
       </div>
     </div>
+    <div class="pg1">Simple booking</div>
+      <div class="pg2">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completes you can rate your walker and book again all through the chat.
+      </div>
     
   </div>
   <div class="attribution">

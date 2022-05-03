@@ -1,1 +1,200 @@
-                                
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,500;1,700&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    width: 375px;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    background-color: red;
+    height: 600px;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: gray;
+    width: 260px;
+
+}
+.sec1b{
+    display: flex;
+    align-items: center;
+}
+.sec1c{
+    display: flex;
+    align-items: center;
+}
+.sec1a{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;    
+}
+.fa-chevron-left{
+    color: white;
+    padding-right: 5px;
+}
+img{
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    height: 30px;
+    width: 30px;
+}
+.name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+.function{
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.938);
+}
+.fa-ellipsis-vertical{
+    color: white;
+}
+
+.greysection{
+    background-color: hsl(270, 20%, 96%);
+    height: 900px;
+    width: 260px ;
+    /* margin-left: 15px;
+    margin-bottom: 15px; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.msg1{
+    background-color: hsl(277, 95%, 93%);
+    width: 170px;
+    height: 40px;
+    border-radius: 15px 15px 15px 0px;;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+.content{
+    color: hsl(276, 55%, 52%);
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    padding: 7px;
+}
+.images{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 95px;
+    gap: 0.5rem;
+}
+#dog{
+    border-radius: 9px;
+    height: 40px;
+    width: 50px;
+    border-color: transparent;
+}
+.msg2{
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px 15px 0px 15px;;
+    margin-left: 95px ;
+    text-align: left;
+}
+.msg3{
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius:  15px 15px 0px 15px;
+    margin-left: 145px ;
+    text-align: left;
+}
+.content2{
+    color: hsl(271, 15%, 43%);
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    padding: 7px;
+}
+.msg4{
+    background-color: hsl(277, 95%, 93%);
+    width: 170px;
+    height: 50px;
+    border-radius: 15px 15px 15px 0px;;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+.cases{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+    padding-left: 15px;
+    gap: 0.5rem;
+}
+.case{
+    background: linear-gradient(90deg, rgba(233,66,240,1) 0%, rgba(136,56,255,1) 100%);   
+    width: 200px;
+    height: 35px;
+    border-radius: 15px 15px 15px 0px; 
+    padding: 0 10px; 
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.circle{
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+.text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.938);
+}
+.price{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
