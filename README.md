@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source](https://github.com/youssra-ghninou/social-proof-section-master)
-- Live Site URL: [Demo](https://youssra-ghninou.github.io/social-proof-section-master/)
+- Solution URL: [Source](https://github.com/youssra-ghninou/chat-app-css-illustration-master)
+- Live Site URL: [Demo](https://youssra-ghninou.github.io/chat-app-css-illustration-mas)
 
 ## My process
 
